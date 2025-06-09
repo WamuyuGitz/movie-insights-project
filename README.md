@@ -97,29 +97,41 @@ Insights on required budget levels versus expected gross earnings by genre.
 
 ### Summary of Conclusions
 
+# Movie Studio Investment Recommendations
+
+---
 Based on the analysis, we propose the following key findings:
 
-1. **Target Optimal Runtimes**  
-   Films between **90–120 minutes** consistently achieve higher commercial and critical success, with specific genre-based adjustments (longer for Action, Drama, Sci-Fi).
+### Target Optimal Runtimes
+- Films between **90–120 minutes** consistently achieve higher commercial and critical success.
+- Adjust runtimes by genre:
+  - **Action, Drama, Sci-Fi** films can perform well with slightly longer runtimes.
 
-2. **Focus on High-ROI Genres**  
-   Genres such as **Animation, Horror, Documentary, and Thriller** deliver excellent ROI even with lower budgets. These should form the foundation of the studio’s production pipeline.
+### Focus on High-ROI Genres
+- **Animation, Horror, Documentary, and Thriller** deliver excellent ROI even with lower budgets.
+- These genres should form the foundation of the studio’s production pipeline.
 
-3. **Invest in Strong Creative Talent**  
-   Hiring proven actors, directors, and writers is critical for both box office success and brand building. We recommend prioritizing talent such as:
-   - **Actors:** Dwayne Johnson, Jennifer Lawrence, Robert Downey Jr., Tom Cruise, etc.
-   - **Directors:** Christopher Nolan, M. Night Shyamalan, Tim Burton.
-   - **Writers:** Christopher Nolan, Guillermo del Toro, Michael Green, Ted Elliott.
+### Invest in Strong Creative Talent
+Hiring proven actors, directors, and writers is critical for both box office success and brand building. We recommend prioritizing:
 
-4. **Diversify the Portfolio**  
-   Balance **lower-risk, high-ROI films** with **select big-budget blockbusters** (Action, Adventure, Sci-Fi) to drive both profitability and brand growth.
+- **Actors**: Dwayne Johnson, Jennifer Lawrence, Robert Downey Jr., Tom Cruise, etc.
+- **Directors**: Christopher Nolan, M. Night Shyamalan, Tim Burton.
+- **Writers**: Christopher Nolan, Guillermo del Toro, Michael Green, Ted Elliott.
 
-5. **Leverage International Markets**  
-   Genres like Animation, Action, and Thriller perform strongly worldwide. A global marketing and distribution strategy is essential.
+### Diversify the Portfolio
+- Balance lower-risk, high-ROI films with **select big-budget blockbusters** (Action, Adventure, Sci-Fi).
+- This strategy drives both **profitability** and **brand growth**.
 
 ---
 
-This analysis equips stakeholders with clear, data-driven guidance for structuring the new movie studio’s production and investment strategy.
+# Summary
+
+This comprehensive strategy balances **risk and opportunity** across genres, talent, budget, and release timing — while embracing **data-driven decisions** and **global market opportunities**.
+
+By following these recommendations, the studio will be well-positioned to:
+- Build a successful and sustainable **brand** in the film industry.
+- Generate strong and consistent **box office and ancillary revenue**.
+- Maximize audience **engagement**.
 
 ---
 
