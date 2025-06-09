@@ -1,4 +1,5 @@
 # Movie Studio Investment Analysis
+![Movie studio analysis](https://github.com/WamuyuGitongaEMTH/movie-insights-project/blob/develop/images/istockphoto-933896402-1024x1024.jpg)
 
 ## Overview
 
@@ -60,7 +61,7 @@ Data cleaning involved:
 
 ### 1️⃣ Median Gross-to-Budget Ratio per Genre
 
-![Median Gross-to-Budget Ratio per Genre](link_to_your_image_1_if_uploaded_to_repo)
+![Median Gross-to-Budget Ratio per Genre](https://github.com/WamuyuGitongaEMTH/movie-insights-project/blob/develop/images/median%20gross%20to%20budget%20ratio.png)
 
 Genres with the best ROI (high median gross-to-budget ratio):
 
@@ -73,7 +74,7 @@ Genres with the best ROI (high median gross-to-budget ratio):
 
 ### 2️⃣ Mean Profit per Genre
 
-![Mean Profit per Genre](link_to_your_image_2_if_uploaded_to_repo)
+![Mean Profit per Genre]()
 
 Genres with high mean profits (but often higher production budgets):
 
