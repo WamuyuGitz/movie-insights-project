@@ -157,6 +157,16 @@ Plan season-specific marketing campaigns that play into seasonal moods and event
 
 - Maximize revenues through global streaming platforms and international theatrical releases.
 
+## Strategic Recommendations.
+### *Encourage Data-Driven Greenlighting*
+Leverage historical ROI data by genre, budget, and studio to guide investment decisions on which projects to greenlight—particularly those with proven high ROI profiles.
+
+### *Strengthen International Distribution Early*
+Capitalize on foreign gross potential by securing international partnerships and distribution channels in early stages of production.
+
+### *Target Mid-Budget Films for Scaling*
+Focus on mid-budget films that show strong ROI potential—especially in horror, drama, and comedy categories where spending is controlled but returns can be high.
+
 ## CONCLUSION
 ### Overview
 The project was meant to come up with data-driven insights to serve as a strategic foundation to guide our studio’s content creation decisions, helping stakeholders ensure we invest in films with the greatest potential for success. By analyzing box office performance, genre popularity, audience ratings, and other relevant factors, we uncovered the characteristics of top-performing movies in line with what makes them succed in box office.
