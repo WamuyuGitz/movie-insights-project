@@ -193,6 +193,14 @@ After exploring the data trying to understand the industry, we identified severa
 ### Impact
 The project will help the stakeholders make informed decisions when setting goals, budgets for development, production, marketing and distribution, selecting projects, planning their workflows and timelines, risk assessment and contingenct, marketing and distributions as well as monitoring their successes as they move forward with the business plans.
 
+This comprehensive strategy balances risk and opportunity across genres, talent, budget, and release timing — while embracing data-driven decisions and global market opportunities.
+
+By following these recommendations, the studio will be well-positioned to:
+
+- Build a successful and sustainable brand in the film industry.
+- Generate strong and consistent box office and ancillary revenue.
+- Maximize audience engagement
+
 ## Navigating the repository
 - Data - This folder contains all the data used in this project in the raw/zippedData path. You can access the cleaned data [here.](https://drive.google.com/drive/folders/1RG8LDPbHwtz-v9_e1mMJrfKz3OPXOETP?usp=drive_link)
 - Notebook - This folder, under the Final folder, contains the last and final notebook of this project.
