@@ -1,6 +1,9 @@
 # Movie Studio Investment Analysis
 ![venti-views-GGwBS_kuKB0-unsplash](https://github.com/user-attachments/assets/19794901-537f-41a9-b8ca-341ec25e42a3)
 
+## Getting started.
+Before you start, kindly download the cleaned datasets [here.](https://drive.google.com/drive/folders/1RG8LDPbHwtz-v9_e1mMJrfKz3OPXOETP?usp=drive_link)
+
 ## Overview
 
 This project presents an exploratory data analysis of the movie industry to support strategic decisions for a new film studio. Using data from multiple sources (The Numbers and IMDB), we aimed to identify key patterns in film profitability, optimal runtimes, creative talent, and genre performance. 
@@ -157,6 +160,9 @@ Plan season-specific marketing campaigns that play into seasonal moods and event
 
 - Maximize revenues through global streaming platforms and international theatrical releases.
 
+  ![image](https://github.com/user-attachments/assets/f3f1d37d-0da0-4320-a79b-e197ea50e319)
+
+
 ## Strategic Recommendations.
 ### *Encourage Data-Driven Greenlighting*
 Leverage historical ROI data by genre, budget, and studio to guide investment decisions on which projects to greenlight—particularly those with proven high ROI profiles.
@@ -167,6 +173,16 @@ Capitalize on foreign gross potential by securing international partnerships and
 ### *Target Mid-Budget Films for Scaling*
 Focus on mid-budget films that show strong ROI potential—especially in horror, drama, and comedy categories where spending is controlled but returns can be high.
 
+### *Optimize Studio Spending*
+Benchmark top-performing studios by ROI rather than total gross to uncover spending inefficiencies and reallocate budgets more strategically.
+
+**Top 10 studios by ROI**
+![image](https://github.com/user-attachments/assets/2678be11-b48a-4380-bb6b-c7b77eeba3ed)
+
+### *Develop Dashboards for Decision-Makers*
+Build interactive dashboards using Tableau or Plotly to visualize ROI, budget distribution, and genre profitability for use by studio executives and marketing teams.
+
+---
 ## CONCLUSION
 ### Overview
 The project was meant to come up with data-driven insights to serve as a strategic foundation to guide our studio’s content creation decisions, helping stakeholders ensure we invest in films with the greatest potential for success. By analyzing box office performance, genre popularity, audience ratings, and other relevant factors, we uncovered the characteristics of top-performing movies in line with what makes them succed in box office.
