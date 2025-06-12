@@ -179,8 +179,11 @@ Benchmark top-performing studios by ROI rather than total gross to uncover spend
 **Top 10 studios by ROI**
 ![image](https://github.com/user-attachments/assets/2678be11-b48a-4380-bb6b-c7b77eeba3ed)
 
-### *Develop Dashboards for Decision-Makers*
-Build interactive dashboards using Tableau or Plotly to visualize ROI, budget distribution, and genre profitability for use by studio executives and marketing teams.
+## 📊 Tableau Dashboard
+![tableau](images/dashboard_preview.png)
+An interactive dashboard to help investors visualize better the analysis
+[Click here to view the interactive Tableau Dashboard](https://public.tableau.com/views/dahsboard_17497116239620/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 ---
 ## CONCLUSION
