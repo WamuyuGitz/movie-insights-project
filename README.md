@@ -1,5 +1,8 @@
 # Movie Studio Investment Analysis
-![Movie studio analysis](https://github.com/WamuyuGitongaEMTH/movie-insights-project/blob/develop/images/istockphoto-933896402-1024x1024.jpg)
+![venti-views-GGwBS_kuKB0-unsplash](https://github.com/user-attachments/assets/19794901-537f-41a9-b8ca-341ec25e42a3)
+
+## Getting started.
+Before you start, kindly download the cleaned datasets [here.](https://drive.google.com/drive/folders/1RG8LDPbHwtz-v9_e1mMJrfKz3OPXOETP?usp=drive_link)
 
 ## Overview
 
@@ -10,8 +13,10 @@ Our goal is to provide actionable business recommendations that maximize return 
 ---
 
 ## Business Understanding
+As the entertainment industry evolves, many major companies are investing in original video content to capture audience attention and generate new revenue streams. Recognizing this trend, our company is preparing to launch its own movie studio. However, breaking into the film industry requires more than just creativity; it demands a clear understanding of what resonates with audiences and drives box office success.
+This notebook begins with a data-driven exploration of the current film landscape. By analyzing box office performance, genre popularity, audience ratings, and other relevant factors, we aim to uncover the characteristics of top-performing movies. These insights will serve as a strategic foundation to guide our studio’s content creation decisions, helping ensure we invest in films with the greatest potential for success.
 
-### Stakeholder
+### Stakeholders
 
 The primary stakeholder is a group of investors seeking to launch a new movie studio. They aim to understand:
 
@@ -42,96 +47,164 @@ The primary stakeholder is a group of investors seeking to launch a new movie st
 
 ### Description of Data
 
-- **tn.movie_budgets.csv**  
+- **tn.movie_budgets.csv and bom.movie_gross.csv**  
   Contains data on production budgets and worldwide gross earnings for a large sample of films.
 
-- **IMDB Database**  
+- **IMDB Database and tmdb.movies.csv**  
   Provides metadata on movies including genres, start year, alternative titles (AKAs), and primary titles.
 
-Data cleaning involved:
+Data preparation involved:
 
-- Removing non-numeric symbols from currency columns.
-- Merging IMDB and The Numbers datasets via cleaned movie titles and AKAs.
+- Data formatting
+- Data engineering
 - Handling missing and duplicate data.
 - Exploding multi-genre fields for genre-specific analysis.
 
 ---
 
-## Visualizations
+## Recommendations
+After carefully analyzing the data, here are the recommendations we came up with;
 
-### 1️⃣ Median Gross-to-Budget Ratio per Genre
+## Genre recommendations.
+### Portfolio strategy: balance and diversify.
+We strongly recommend that the company focus on highly profitable genres that do well even on lower production budgets as well as balance high-profit, high-budget genres. However, we caution that not all blockbuster films succeed therefore we counsel that you consider making only 1/2 blockbuster movies per year while balancing smaller projects.
 
-![Median Gross-to-Budget Ratio per Genre](https://github.com/WamuyuGitongaEMTH/movie-insights-project/blob/develop/images/median%20gross%20to%20budget%20ratio.png)
+- **Animation, Horror, Documentary, Thriller** - Stable cashflow, lower budgets.
 
-Genres with the best ROI (high median gross-to-budget ratio):
+-  **Adventure, Action, Fantasy, Sci-Fi** - Big-brand building, potential blockbusters.
 
-✅ Animation  
-✅ Horror  
-✅ Documentary  
-✅ Thriller
+**Gross-to-budget ratio by genre**
+![image](https://github.com/user-attachments/assets/1d1d8160-545f-46d3-87df-5542df3bead5)
+
+## Runtime recommendations.
+### Runtime-ratings relationship.
+We recommend that production teams prioritize films with runtimes between 90-120 minutes. Our findings revealed that  this is the industry’s "sweet spot" for balancing audience engagement, critical reception, and box office performance.
+
+**Runtime vs ratings vs popularity**
+![image](https://github.com/user-attachments/assets/24bcb1ad-8759-452c-af61-0c39d2eb72a9)
+
+### Genre-specific engagements.
+We Strongly recommend the use of genre-specific benchmarks when planning film length. We found that; 
+- Due to fan expectations, action / Drama / Sci-Fi films can tolerate slightly longer runtimes.
+- Comedies, thrillers, and animation should target tighter runtimes for better audience retention.
+
+**Number of votes by runtime per genre**
+![image](https://github.com/user-attachments/assets/fa2c7e34-ea12-4ed2-a47b-3f69063a4492)
+
+### Worldwide gross by runtime and ratings
+To minimize audience drop-off and maximize repeat viewing, avoid extremes (films that are too short or excessively long).
+
+**Gross by runtime and ratings**
+![image](https://github.com/user-attachments/assets/3ec5b9ae-2f74-45ae-855d-2a9a3eb80707)
+
+## Talent recommendations.
+### Actors to Consider:
+Top actors associated with high-grossing films include:
+Dwayne Johnson, Jennifer Lawrence, Johnny Depp, Brad Pitt, Robert Downey Jr., Liam Neeson, Anne Hathaway, Tom Cruise, among others.
+
+**Actors by number of high performing films**
+![image](https://github.com/user-attachments/assets/066dabd8-ac2a-4521-ae03-9bbd2c2e11c9)
+
+### Directors to Prioritize:
+High-performing directors (many with efficient budgets):
+Steven Spielberg, Christopher Nolan, M. Night Shyamalan, Tim Burton, James Wan, Ridley Scott, and others.
+
+- We especially recommend M. Night Shyamalan and Tim Burton, who consistently deliver strong ROI with controlled budgets.
+
+**Directors by number of high performing films**
+![image](https://github.com/user-attachments/assets/dd299b7f-09c6-455f-91b1-50ddfd05b150)
+
+### Writers to Prioritize:
+Screenwriters behind top-performing films include:
+Christopher Nolan, Guillermo del Toro, Michael Green, Larry Lieber, Ted Elliott, among others.
+
+**Writers by number of high performing films**
+![image](https://github.com/user-attachments/assets/e21e4082-779d-4b1a-9912-8ec75151951d)
+
+### Why This Matters:
+- Star power attracts larger audiences.
+
+- Skilled writers and directors ensure compelling stories and strong execution.
+
+- Successful films contribute to long-term brand building and future revenue streams.
+
+## Release strategy and revenue optimization
+### Best-Performing Release Seasons
+We recommend scheduling blockbuster releases during Summer to capitalize on peak cinema attendance. We also recommend you target family-friendly and fantasy titles for Winter holidays when family audiences surge and use Spring and Fall as tactical slots for lower-budget or niche genre films where market competition is softer.
+
+**Average box office gross by seasons**
+![image](https://github.com/user-attachments/assets/93b8e0fb-5ba4-4736-82df-7485956a16c4)
+
+### Spot Seasonal Trends to Guide Future Movie Release Schedules.
+Lastly, we recommend that the company align release schedules with seasonal genre strengths;
+
+- Action/Adventure/Sci-Fi → Summer
+
+- Family/Fantasy → Winter Holidays.
+
+- Horror → October.
+
+- Drama/Romance → Fall
+
+Plan season-specific marketing campaigns that play into seasonal moods and events (e.g. holiday-themed promotions, summer blockbuster hype).
+
+**Average gross by season and genre**
+![image](https://github.com/user-attachments/assets/5f92193e-0356-4255-8a1d-8454d5991e12)
+
+## Marketing
+- Prioritize global marketing campaigns for high-budget Fantasy, Sci-Fi, and Adventure releases — these genres have proven international traction. Additionally, Animation, Thriller, and Action genres have strong global appeal.
+
+- Focus localized promotions and release strategies for Comedy and Drama films, which exhibit stronger domestic performance. Develop marketing & distribution strategies aimed at international audiences.
+
+- Leverage international-friendly titles for global synchronized releases to maximize momentum and cross-border word of mouth.
+
+- Maximize revenues through global streaming platforms and international theatrical releases.
+
+  ![image](https://github.com/user-attachments/assets/f3f1d37d-0da0-4320-a79b-e197ea50e319)
+
+
+## Strategic Recommendations.
+### *Encourage Data-Driven Greenlighting*
+Leverage historical ROI data by genre, budget, and studio to guide investment decisions on which projects to greenlight—particularly those with proven high ROI profiles.
+
+### *Strengthen International Distribution Early*
+Capitalize on foreign gross potential by securing international partnerships and distribution channels in early stages of production.
+
+### *Target Mid-Budget Films for Scaling*
+Focus on mid-budget films that show strong ROI potential—especially in horror, drama, and comedy categories where spending is controlled but returns can be high.
+
+### *Optimize Studio Spending*
+Benchmark top-performing studios by ROI rather than total gross to uncover spending inefficiencies and reallocate budgets more strategically.
+
+**Top 10 studios by ROI**
+![image](https://github.com/user-attachments/assets/2678be11-b48a-4380-bb6b-c7b77eeba3ed)
+
+### *Develop Dashboards for Decision-Makers*
+Build interactive dashboards using Tableau or Plotly to visualize ROI, budget distribution, and genre profitability for use by studio executives and marketing teams.
 
 ---
+## CONCLUSION
+### Overview
+The project was meant to come up with data-driven insights to serve as a strategic foundation to guide our studio’s content creation decisions, helping stakeholders ensure we invest in films with the greatest potential for success. By analyzing box office performance, genre popularity, audience ratings, and other relevant factors, we uncovered the characteristics of top-performing movies in line with what makes them succed in box office.
 
-### 2️⃣ Mean Profit per Genre
+### Key Findings
+After exploring the data trying to understand the industry, we identified several genres that are performing well in the box office, what talents are driving these performances, what are the release strategies behing the performances and uncovered marketing strategies for both domestic and international scenes. 
 
-![Mean Profit per Genre]()
+### Impact
+The project will help the stakeholders make informed decisions when setting goals, budgets for development, production, marketing and distribution, selecting projects, planning their workflows and timelines, risk assessment and contingenct, marketing and distributions as well as monitoring their successes as they move forward with the business plans.
 
-Genres with high mean profits (but often higher production budgets):
-
-✅ Adventure  
-✅ Action  
-✅ Fantasy  
-✅ Sci-Fi
-
----
-
-### 3️⃣ Mean Production Budget vs Mean Worldwide Gross per Genre
-
-![Mean Budget vs Mean Gross per Genre](link_to_your_image_3_if_uploaded_to_repo)
-
-Insights on required budget levels versus expected gross earnings by genre.
-
----
-
-## Conclusion
-
-### Summary of Conclusions
-
-# Movie Studio Investment Recommendations
-
----
-Based on the analysis, we propose the following key findings:
-
-### Target Optimal Runtimes
-- Films between **90–120 minutes** consistently achieve higher commercial and critical success.
-- Adjust runtimes by genre:
-  - **Action, Drama, Sci-Fi** films can perform well with slightly longer runtimes.
-
-### Focus on High-ROI Genres
-- **Animation, Horror, Documentary, and Thriller** deliver excellent ROI even with lower budgets.
-- These genres should form the foundation of the studio’s production pipeline.
-
-### Invest in Strong Creative Talent
-Hiring proven actors, directors, and writers is critical for both box office success and brand building. We recommend prioritizing:
-
-- **Actors**: Dwayne Johnson, Jennifer Lawrence, Robert Downey Jr., Tom Cruise, etc.
-- **Directors**: Christopher Nolan, M. Night Shyamalan, Tim Burton.
-- **Writers**: Christopher Nolan, Guillermo del Toro, Michael Green, Ted Elliott.
-
-### Diversify the Portfolio
-- Balance lower-risk, high-ROI films with **select big-budget blockbusters** (Action, Adventure, Sci-Fi).
-- This strategy drives both **profitability** and **brand growth**.
-
----
-
-# Summary
-
-This comprehensive strategy balances **risk and opportunity** across genres, talent, budget, and release timing — while embracing **data-driven decisions** and **global market opportunities**.
+This comprehensive strategy balances risk and opportunity across genres, talent, budget, and release timing — while embracing data-driven decisions and global market opportunities.
 
 By following these recommendations, the studio will be well-positioned to:
-- Build a successful and sustainable **brand** in the film industry.
-- Generate strong and consistent **box office and ancillary revenue**.
-- Maximize audience **engagement**.
 
----
+- Build a successful and sustainable brand in the film industry.
+- Generate strong and consistent box office and ancillary revenue.
+- Maximize audience engagement
 
+## Navigating the repository
+- Data - This folder contains all the data used in this project in the raw/zippedData path. You can access the cleaned data [here.](https://drive.google.com/drive/folders/1RG8LDPbHwtz-v9_e1mMJrfKz3OPXOETP?usp=drive_link)
+- Notebook - This folder, under the Final folder, contains the last and final notebook of this project.
+- Presentation - This folder contains the powerpoint presentation file of the project. you can also access it [here.](https://1drv.ms/p/c/9fb0e9e462d93906/EQJtPyIUEc1DgHIL_VWJr8QBeQCRONwNJw87XX3JIlv4mg?e=fTggMv)
+- Images - This folder contains some of the images used in this project.
+
+# END/
