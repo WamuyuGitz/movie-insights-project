@@ -206,6 +206,7 @@ By following these recommendations, the studio will be well-positioned to:
 
 ## Navigating the repository
 - Data - This folder contains all the data used in this project in the raw/zippedData path. You can access the cleaned data [here.](https://drive.google.com/drive/folders/1RG8LDPbHwtz-v9_e1mMJrfKz3OPXOETP?usp=drive_link)
+- Scripts - This folder contains a decompression script which you can run to decompress the zippedData file.
 - Notebook - This folder, under the Final folder, contains the last and final notebook of this project.
 - Presentation - This folder contains the powerpoint presentation file of the project. you can also access it [here.](https://1drv.ms/p/c/9fb0e9e462d93906/EQJtPyIUEc1DgHIL_VWJr8QBeQCRONwNJw87XX3JIlv4mg?e=fTggMv)
 - Images - This folder contains some of the images used in this project.
